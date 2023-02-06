@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 30rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+  width: 25%;
+  border-radius: 20px;
+}
+
+.card h3 {
+  font-family: Montserrat;
+  /* font-weight: 600; */
+  color: black;
+}
+
+.rate {
+  color: #c78b35;
+  font-weight: 600;
+}
+
+div {
+  color: gray;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: pink; */
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 80%;
+  }
+}
