@@ -20,14 +20,12 @@ main div {
   background: red;
   padding: 1rem;
   aspect-ratio: 1;
-  /* height: 30rem; */
 }
 
 .box2 {
   background: #00ff2a;
   padding: 1rem;
   aspect-ratio: 1;
-  /* height: 30rem; */
 }
 
 @media screen and (max-width: 400px) {
