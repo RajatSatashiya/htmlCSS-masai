@@ -1,0 +1,35 @@
+section {
+  padding: 1rem;
+  background: silver;
+  width: 30%;
+  gap: 1rem;
+  display: grid;
+  grid-template-areas: "A A B B" "C D D D" "E E E E";
+}
+
+div {
+  background: #444444;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.A {
+  grid-area: A;
+}
+
+.B {
+  grid-area: B;
+}
+
+.C {
+  grid-area: C;
+}
+
+.D {
+  grid-area: D;
+}
+
+.E {
+  grid-area: E;
+}
