@@ -1,0 +1,41 @@
+header {
+  font-size: 2rem;
+  background: yellow;
+  padding: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+main div {
+  font-size: 1.5rem;
+  width: 50%;
+}
+.box1 {
+  background: red;
+  padding: 1rem;
+  aspect-ratio: 1;
+  /* height: 30rem; */
+}
+
+.box2 {
+  background: #00ff2a;
+  padding: 1rem;
+  aspect-ratio: 1;
+  /* height: 30rem; */
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    grid-template-columns: auto;
+  }
+
+  main div {
+    width: 90%;
+  }
+}
