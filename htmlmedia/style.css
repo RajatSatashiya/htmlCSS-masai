@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;600;700;800;900&family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* navigation menu */
+nav {
+  font-family: Montserrat;
+  font-weight: 200;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 1rem 10%;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+ul {
+  list-style-type: none;
+}
+nav li {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 1rem;
+  float: left;
+  text-transform: capitalize;
+}
+nav li:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+.nav-link:hover {
+  border-bottom: 5px solid white;
+  color: red;
+}
+nav button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  background: #c7493a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1.4rem;
+  cursor: pointer;
+}
+nav button:hover {
+  font-weight: 500;
+  color: black;
+  background: white;
+  transform: scale(1.1);
+}
+
+/* images.html */
+main {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+.images {
+  grid-template-columns: auto auto auto;
+}
+
+.images img {
+  width: 30rem;
+}
+
+.images img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+header {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+/* videos.html */
+
+.videos {
+  grid-template-columns: auto auto auto;
+}
